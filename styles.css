@@ -1,3 +1,12 @@
+:root {
+    --clr-dark: #030712;
+    --clr-light: #F4F3F4;
+    --clr-yellow: #fbd000;
+    --clr-blue: #049cd8; 
+    --clr-red: #e52521;
+    --clr-green: #43b047;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +18,31 @@ body {
     background-color: azure;
     color: black;
     scroll-behavior: smooth;
+}
+
+.heading {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.secondSlide {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+.thirdSlide {
+    background-color: var(--clr-green);
+    color: var(--clr-light);
+}
+
+.fourthSlide {
+    background-color: var(--clr-yellow);
+    color: var(--clr-red);
+}
+
+.fifthSlide {
+    background-color: var(--clr-blue);
+    color: var(--clr-yellow);
 }
 
 section {
