@@ -1,6 +1,6 @@
 # intersection-observer-js
 
-
+Tutorial was from freecodecamp. Made a few tweaks with the snap scroll behavior and the smooth scroll behavior as well as adding few slides and styles.
 
 
 
